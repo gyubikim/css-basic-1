@@ -44,9 +44,16 @@
       border-style: hidden;
     }
 
+    /* none이랑 다른 점은 히든을 주고 굵기를 주면 그 굵기가 존재함 */
+
     p.mix {
       border-style: dotted dashed solid double;
     }
+
+    /* 보더의 4면을 다 다른 스타일로 적용가능.
+    CSS에서 무조건 순서는 시계방향. 탑 라이트 바틈 래프트.
+    만약 2개만 쓰면 탑과 바틈, 라이트래프트가 된다.
+    만약 3개만 쓰면 탑, 좌우, 바틈이 된다. */
   </style>
 </head>
 

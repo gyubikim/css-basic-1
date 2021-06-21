@@ -10,19 +10,28 @@
       background-position: right top;
     }
 
-    /* body {
+    /* 배경이미지를 줄 건데 어떤 위치에 넣을 거냐 > right top이라고 하면 오른쪽 상단.
+    디폴드 값은 html코드가 출력된 순서다. 
+    right-bottom은 오른쪽 아래다. */
+
+    body {
       background-image: url("img_tree.png");
       background-repeat: no-repeat;
       background-position: right top;
       background-attachment: fixed;
-    } */
+    }
 
-    /* body {
+    /* 스크롤을 하면 이미지도 같이 올라간다. 근데 만약 fixed란 속성을 주면
+    스크롤을 해도 계속 화면의 오른쪽 위에 노출된다. */
+
+    body {
       background-image: url("img_tree.png");
       background-repeat: no-repeat;
       background-position: right top;
       background-attachment: scroll;
-    } */
+    }
+
+    /* 스크롤이라고 주면 같이 그냥 올라감. */
   </style>
 </head>
 
